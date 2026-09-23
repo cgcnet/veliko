@@ -1,0 +1,18 @@
+.site-header{flex-direction:column;gap:18px;justify-content:center}
+.brand-wordmark{text-align:center}
+.brand strong{font-size:27px}
+.brand small{font-size:10px}
+nav{gap:38px}
+.legal{background:var(--paper)}
+.legal-content{color:#5b5953;max-width:850px}
+.legal-content h2{margin-bottom:30px}
+.legal-content p{font-size:14px;margin:0 0 18px}
+.legal-content strong{color:var(--ink)}
+.legal-content a{color:var(--clay)}
+.site-footer{gap:25px}
+.site-footer a:hover{color:var(--gold)}
+.service-list{border-top:1px solid #51504b;display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:26px;padding-top:18px}.service-list span{color:#c2bdb2;font-size:12px}.privacy-note{color:#8f8a81;font-size:11px;margin:0 0 18px}.privacy-note a{color:var(--gold)}.verification{color:var(--gold);display:inline-block;margin-left:8px}
+.logo-image{display:block;height:auto;max-width:390px;width:min(68vw,390px)}.footer-logo{max-width:250px}.service-card{overflow:hidden}.service-card img{display:block;height:130px;margin:-35px -35px 25px;object-fit:cover;width:calc(100% + 70px)}.method{display:block}.method-content{margin:auto;max-width:920px}.legal-page{background:var(--paper)}.legal-header{position:relative}.back-link{color:var(--gold);font-size:12px;letter-spacing:.08em;text-transform:uppercase}.legal-document{margin:auto;max-width:920px;padding-bottom:110px}.legal-document h1{font-family:'Playfair Display',serif;font-size:clamp(44px,7vw,78px);font-weight:500;line-height:1.05;margin:20px 0}.legal-document h1 em{color:var(--gold);font-style:normal}.legal-document h2{font-family:'Playfair Display',serif;font-size:30px;font-weight:500;margin:45px 0 12px}.legal-document p,.legal-document dd,.legal-document dt{color:#5b5953;font-size:15px;line-height:1.75}.legal-document a{color:var(--clay)}.legal-lead{font-size:18px!important;margin-bottom:55px}.legal-document dl{border-top:1px solid var(--line);margin:20px 0}.legal-document dt,.legal-document dd{border-bottom:1px solid var(--line);margin:0;padding:12px 0}.legal-document dt{color:var(--ink);font-weight:700}.legal-document dd{margin-left:0}.legal-page .site-footer{margin-top:0}@media(max-width:800px){.logo-image{max-width:330px}.service-card img{height:115px}.legal-document h2{font-size:25px}}
+.section-kicker,.eyebrow,nav a,.button,.back-link{font-family:'Oswald',sans-serif}
+.hero{background-image:linear-gradient(90deg,rgba(20,20,18,.92) 0%,rgba(20,20,18,.52) 52%,rgba(20,20,18,.35) 100%),url('assets/taller.png')}
+@media(max-width:800px){.site-header{padding:20px 6vw}.brand strong{font-size:23px}nav{top:132px}.hero{padding-top:180px}}
